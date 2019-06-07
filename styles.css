@@ -1,7 +1,50 @@
 body {
-  background-color:gray;
+  background-color: lightgray;
 }
 
 h1 {
-  color:white;
+  color: black;
+  text-align: center;
+  font-size: 50px;
+  font-family:sans-serif ;
 }
+
+p {  //PARA TODOS LOS P
+  color: lightblue;
+  font-family:fantasy;
+  font-size: 20px;
+  text-align: justify;
+
+}
+
+p:hover {  //QUE CAMBIE AL COLOCAR EL CURSOR SOBRE ESO
+  font-weight:bolder;
+}
+
+#PS4 {  //SOLO APLICA PARA UN ELEMENTO Y TIENEN PRIORIDAD, LUEGO LAS CLASES. ES UN ID
+  color: black;
+  font-weight: bold;
+  text-align: left;
+  font-size: 25px;
+  font-family: inherit;
+}
+
+img {
+  width: 500px; //o height, solo una de las dos
+}
+
+#Xbox {
+  color: black;
+  font-weight: bold;
+  text-align: left;
+  font-size: 25px;
+  font-family: inherit;
+  }
+
+#Switch {
+  color: black;
+  font-weight: bold;
+  text-align: left;
+  font-size: 25px;
+  font-family: inherit;
+  }
