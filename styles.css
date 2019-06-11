@@ -1,50 +1,81 @@
+@font-face {
+  font-family:pixell;
+  src: url("tipografia/pixel.ttf");
+}
+
+@font-face {
+  font-family:titulos;
+  src: url("tipografia/titulos.ttf");
+}
+
 body {
-  background-color: lightgray;
+  background-color: white;
 }
 
-h1 {
-  color: black;
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: black;
+  display: block;
+  height: 150px;
+  padding-top: 55px;
+  box-sizing: border-box;
+}
+
+.header img {
+  text-align: right;
+  width: 20%;
+  padding-top: 80px;
+  position: absolute;
+  padding-right: 100px;
+  display: inline-block;
+  box-sizing:content-box;
+}
+
+.header h1 {
+  color: white;
+  font-family: arial;
   text-align: center;
-  font-size: 50px;
-  font-family:sans-serif ;
 }
 
-p {  //PARA TODOS LOS P
-  color: lightblue;
-  font-family:fantasy;
+.content h2 {
+  font-family: titulos;
+  text-align: center;
+}
+
+.content {
+  background-color: lightgray;
+  box-sizing: border-box;
+  display: inline-block;
+  padding: 40px;
+  // overflow: scroll;
+  vertical-align: top;
+  height: 600px;
+  width: 33%;
+}
+
+.content img {
+  width: 80%;
+  padding-top: 50px;
+}
+
+.content ul {
+  font-family: pixell;
+  text-align:center;
+  padding-top: 20px;
+}
+
+.footer {
+  background-color: black;
+
+  text-align: center;
+  font-family: arial;
   font-size: 20px;
-  text-align: justify;
-
+  padding-top: 65px;
+  color: white;
+  box-sizing: border-box;
+  height: 150px;
 }
-
-p:hover {  //QUE CAMBIE AL COLOCAR EL CURSOR SOBRE ESO
-  font-weight:bolder;
-}
-
-#PS4 {  //SOLO APLICA PARA UN ELEMENTO Y TIENEN PRIORIDAD, LUEGO LAS CLASES. ES UN ID
-  color: black;
-  font-weight: bold;
-  text-align: left;
-  font-size: 25px;
-  font-family: inherit;
-}
-
-img {
-  width: 500px; //o height, solo una de las dos
-}
-
-#Xbox {
-  color: black;
-  font-weight: bold;
-  text-align: left;
-  font-size: 25px;
-  font-family: inherit;
-  }
-
-#Switch {
-  color: black;
-  font-weight: bold;
-  text-align: left;
-  font-size: 25px;
-  font-family: inherit;
-  }
